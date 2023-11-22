@@ -1,11 +1,12 @@
 
-export * from './datasources/curso.datasource';
+export * from './datasources/tipocurso.datasource';
 export * from './dtos';
-export * from './entities/curso.entity';
-export * from './repositories/Curso.repository';
+export * from './entities/tipocurso.entity';
+export * from './repositories/Tipocurso.repository';
 
 
-export * from './use-cases/Curso/create-curso';
-export * from './use-cases/Curso/update-curso';
-export * from './use-cases/Curso/get-curso';
-export * from './use-cases/Curso/delete-curso';
+export * from './use-cases/Tipocurso/create-tipocurso';
+export * from './use-cases/Tipocurso/update-tipocurso';
+export * from './use-cases/Tipocurso/get-tipocurso';
+export * from './use-cases/Tipocurso/delete-tipocurso';
+export * from './use-cases/Tipocurso/get-tipocursos';

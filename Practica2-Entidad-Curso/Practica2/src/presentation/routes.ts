@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import { CursoRoutes } from './Curso/routes';
+import { TipocursoRoutes } from './Tipocurso/routes';
 
 
 export class AppRoutes {
@@ -10,7 +10,7 @@ export class AppRoutes {
 
     const router = Router();
 
-    router.use('/api/customers', CursoRoutes.routes );
+    router.use('/api/tipocurso', TipocursoRoutes.routes );
     
     return router;
   }

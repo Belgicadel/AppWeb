@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CursoRoutes } from './Curso/routes';
+import { TipocursoRoutes } from './Tipocurso/routes';
 
 
 export class AppRoutes {
@@ -7,7 +7,7 @@ export class AppRoutes {
   static get routes(): Router {
 
     const router = Router();
-    router.use('/api/cursos', CursoRoutes.routes );
+    router.use('/api/tipocurso', TipocursoRoutes.routes );
         return router;
   }
 
